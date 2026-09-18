@@ -1,2 +1,1 @@
-# license
-🛡️ Week 2 - Footprinting & Network Scanning
+#🛡️ Week 2 - Footprinting & Network Scanning
