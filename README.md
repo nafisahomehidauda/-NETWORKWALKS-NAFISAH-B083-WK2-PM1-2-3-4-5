@@ -1,25 +1,25 @@
 # 🛡️ Week 2 - Footprinting & Network Scanning
-Table of content
+## Table of content
 
-Engagement Brief
+- Engagement Brief
 
-Final report 
+- Final report 
 
-Legal and ethical notice 
+- Legal and ethical notice 
 
-Objective and scope 
+- Objective and scope 
 
-Arsenal- tools used
+- Arsenal- tools used
 
 Activities performed 
 
 PM1 # FOOTPRINTING & NETWORK SCANNING
 
-Overview
+## Overview
 _______________________________
 This covers footprinting the networkwalks.com domain using multiple Kali Linux tools and scanning my own local network with Zenmap . One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. All commands were run in Kali Linux (footprinting) and on a Windows PC with Zenmap installed (scanning). Every step below includes the exact command used, the result I observed, and a short note on why the finding matters from an attacker's point of view.
 --
-🎯 Objectives
+🎯 # Objectives
 ____________________________________
 Run WHOIS enumeration on the target domain
 
@@ -35,9 +35,9 @@ Enumerate DNS records in depth with dnsrecon
 
 Save output to file for later reference
 _______________________________
-🪜 Tasks & Findings
+🪜 # Tasks & Findings
 -----
-1. WHOIS Lookup
+1. ### WHOIS Lookup
    
  whois networkwalks.com
 
@@ -60,10 +60,10 @@ _______________________________
    Name Server: NS6136.HOSTGATOR.COM
    DNSSEC: unsigned
    
-2. WhatWeb Fingerprinting
+2. ### WhatWeb Fingerprinting
    whatweb networkwalks.com
    
-3. DNS Resolution check
+3. ### DNS Resolution check
    
    nslookup networkwalks.com
    
@@ -77,7 +77,7 @@ _______________________________
 
    Address: 192.232.216.135
 
-4. HTTP Header Inspection
+4. ### HTTP Header Inspection
    
 curl -I https://networkwalks.com
 HTTP/2 200 
@@ -91,11 +91,11 @@ content-type: text/html; charset=UTF-8
 date: Tue, 15 Sep 2026 11:52:33 GMT
 server: Apache
 
-5.WAF Detection
+5.### WAF Detection
 
 wafw00f networkwalks.com
 
-6. Deep DNS Enumeration
+6. ###  Deep DNS Enumeration
 
 dnsrecon -d networkwalks.com
 
@@ -127,7 +127,7 @@ dnsrecon -d networkwalks.com
 2026-09-15T07:59:37.426097-0400 INFO Enumerating SRV Records
 __________________
 
-Tools Used
+## Tools Used
 -----
 whois (built-in)
 
