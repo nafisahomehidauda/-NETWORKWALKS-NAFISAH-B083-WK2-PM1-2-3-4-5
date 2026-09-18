@@ -36,8 +36,8 @@ Enumerate DNS records in depth with dnsrecon
 Save output to file for later reference
 _______________________________
 🪜 # Tasks & Findings
------
-1. ### WHOIS Lookup
+----
+### 1. WHOIS Lookup
    
  whois networkwalks.com
 
@@ -60,10 +60,10 @@ _______________________________
    Name Server: NS6136.HOSTGATOR.COM
    DNSSEC: unsigned
    
-2. ### WhatWeb Fingerprinting
+    ### 2.  WhatWeb Fingerprinting
    whatweb networkwalks.com
    
-3. ### DNS Resolution check
+ ### 3. DNS Resolution check
    
    nslookup networkwalks.com
    
@@ -76,8 +76,7 @@ _______________________________
    Name:   networkwalks.com
 
    Address: 192.232.216.135
-
-4. ### HTTP Header Inspection
+ ### 4. HTTP Header Inspection
    
 curl -I https://networkwalks.com
 HTTP/2 200 
@@ -91,11 +90,11 @@ content-type: text/html; charset=UTF-8
 date: Tue, 15 Sep 2026 11:52:33 GMT
 server: Apache
 
-5.### WAF Detection
+### 5. WAF Detection
 
 wafw00f networkwalks.com
 
-6. ###  Deep DNS Enumeration
+### 6. Deep DNS Enumeration
 
 dnsrecon -d networkwalks.com
 
