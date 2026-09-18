@@ -1,1 +1,2 @@
-# -NETWORKWALKS-NAFISAH-B083-WK2-PM1-2-3-4-5
+# license
+🛡️ Week 2 - Footprinting & Network Scanning
