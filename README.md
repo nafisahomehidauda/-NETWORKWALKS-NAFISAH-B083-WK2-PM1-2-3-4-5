@@ -17,8 +17,8 @@ PM1 # FOOTPRINTING & NETWORK SCANNING
 
 ## Overview
 _______________________________
-This covers footprinting the networkwalks.com domain using multiple Kali Linux tools and scanning my own local network with Zenmap . One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. All commands were run in Kali Linux (footprinting) and on a Windows PC with Zenmap installed (scanning). Every step below includes the exact command used, the result I observed, and a short note on why the finding matters from an attacker's point of view.
---
+This covers footprinting the networkwalks.com domain using multiple Kali Linux tools and scanning my own local network with Zenmap . One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. All commands were run in Kali Linux (footprinting) and on a Windows PC with Zenmap installed (scanning). 
+---
 🎯 # Objectives
 ____________________________________
 Run WHOIS enumeration on the target domain
