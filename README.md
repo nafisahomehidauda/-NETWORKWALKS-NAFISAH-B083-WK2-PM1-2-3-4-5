@@ -33,9 +33,10 @@ whois reveals the registrar, registration and expiry dates, and name servers. He
 servers point to HostGator, so an attacker instantly learns the hosting provider. Registration dates 
 and abuse contacts help with social engineering and planning.
 
-    ### whatweb fingerprinting 
+### 2. whatweb fingerprinting  
     
    whatweb networkwalks.com
+   
    whatweb exposes the exact software and versions. An attacker looks these versions up in vulnerability databases to find known 
 exploits. It also leaks the server IP and an email address.
 
@@ -75,7 +76,13 @@ attacker understand the email and hosting setup.
 dnsrecon -d networkwalks.com
 __________________
 
-# PM3 - 
+# PM3 - Footprinting with Maltego 
+———
+This information is useful for Hackers because with this information in hand, they can
+search for related vulnerabilities & launch technology specific Hacking attacks based on
+the relevant exploits.
+
+# PM4 - Footprinting and Reconnaissance with Harvester 
 
 
 
