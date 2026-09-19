@@ -23,8 +23,7 @@ Enumerate DNS records in depth with dnsrecon
 
 Save output to file for later reference
 _______________________________
-🪜 # Tasks
-----
+
 ### 1. WHOIS Lookup
    
  whois networkwalks.com
@@ -77,14 +76,14 @@ dnsrecon -d networkwalks.com
 __________________
 
 # PM3 - Footprinting with Maltego 
----
+
 This information is useful for Hackers because with this information in hand, they can
 search for related vulnerabilities & launch technology specific Hacking attacks based on
 the relevant exploits.
 ______________________
 
 # PM4 - Footprinting and Reconnaissance with Harvester 
----
+
 theHarvester collects emails, sub-domains and hosts from dozens of public sources
 without ever touching the target directly. Each harvested email is a possible target for
 phishing and password attacks. Each sub-domain is another door into the organization
@@ -95,7 +94,7 @@ what an attacker would see, and then reduce what they leak.
 _______________
 
 # PM5 - Network scanning with Zenmap 
----
+
 
 It is a security scanner software tool which is used by Cybersecurity professionals & Hackers. It is a multi-platform
 
